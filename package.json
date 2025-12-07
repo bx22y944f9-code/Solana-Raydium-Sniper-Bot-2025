@@ -1,8 +1,12 @@
 {
   "name": "solana-raydium-sniper-bot",
   "author": "sniperbot",
-  "scripts": {
-    "start": "ts-node start.ts"
+  "scripts": {"scripts": 
+  "build": "tsc",
+  "start": "node dist/index.js"
+}
+    
+    
   },
   "dependencies": {
     "@project-serum/serum": "^0.13.65",
@@ -28,3 +32,4 @@
     "typescript": "^5.3.3"
   }
 }
+
